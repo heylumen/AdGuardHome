@@ -1,6 +1,6 @@
 module github.com/AdguardTeam/AdGuardHome
 
-go 1.20
+go 1.25.0
 
 require (
 	github.com/AdguardTeam/dnsproxy v0.59.1
@@ -31,10 +31,10 @@ require (
 	github.com/stretchr/testify v1.8.4
 	github.com/ti-mo/netfilter v0.5.1
 	go.etcd.io/bbolt v1.3.8
-	golang.org/x/crypto v0.15.0
+	golang.org/x/crypto v0.52.0
 	golang.org/x/exp v0.0.0-20231110203233-9a3e6036ecaa
-	golang.org/x/net v0.18.0
-	golang.org/x/sys v0.14.0
+	golang.org/x/net v0.54.0
+	golang.org/x/sys v0.45.0
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1
 	gopkg.in/yaml.v3 v3.0.1
 	howett.net/plist v1.0.0
@@ -59,8 +59,8 @@ require (
 	github.com/quic-go/qtls-go1-20 v0.4.1 // indirect
 	github.com/u-root/uio v0.0.0-20230305220412-3e8cd9d6bf63 // indirect
 	go.uber.org/mock v0.3.0 // indirect
-	golang.org/x/mod v0.14.0 // indirect
-	golang.org/x/sync v0.5.0 // indirect
-	golang.org/x/text v0.14.0 // indirect
-	golang.org/x/tools v0.15.0 // indirect
+	golang.org/x/mod v0.35.0 // indirect
+	golang.org/x/sync v0.20.0 // indirect
+	golang.org/x/text v0.37.0 // indirect
+	golang.org/x/tools v0.44.0 // indirect
 )
